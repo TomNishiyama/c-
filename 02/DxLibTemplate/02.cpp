@@ -16,6 +16,9 @@ const unsigned int COLOR_ARRAY[] =
 const int COLOR_ARRAY_LENGTH = sizeof(COLOR_ARRAY) / sizeof(COLOR_ARRAY[0]);
 
 
+
+
+
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
 	SetGraphMode(WINDOW_WIDTH, WINDOW_HEIGHT, 32);
